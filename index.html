@@ -4,149 +4,174 @@
     <meta charset="UTF-8" />
     <meta name="description" content="Personal Portfolio of Joshua Criswell" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Joshua Criswell's Portfolio</title>
+    <title>Joshua Criswell - Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" 
+      rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <h1>Joshua Criswell</h1>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="brand">
+                    <h1>Joshua Criswell</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section class="hero">
-        <div class="hero-text">
-            <h2>Aspiring Software Developer & Customer Service Specialist</h2>
-            <p>Welcome to my portfolio website! Here you’ll find my professional background, showcased projects, and ways to get in touch.</p>
+        <div class="container hero-content">
+            <h2 class="hero-title">Aspiring Software Developer &amp; Customer Service Specialist</h2>
+            <p class="hero-subtitle">
+                Bringing over 5 years of experience in customer service together with a formal background in software development.
+                I’m passionate about creating user-centric applications and providing excellent client support.
+            </p>
+            <a class="hero-button" href="#projects">View My Work</a>
         </div>
     </section>
 
-    <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>
-            <strong>Location:</strong> Silverdale, WA | <strong>Phone:</strong> (360)265-7991 | 
-            <strong>Email:</strong> <a href="mailto:joshuacriswell1996@gmail.com">joshuacriswell1996@gmail.com</a>
-        </p>
-        <p>
-            I am a dedicated remote customer service professional with over 5 years of experience enhancing client satisfaction, 
-            driving retention, and resolving complex inquiries. I excel in fast-paced, remote environments, leveraging strong communication, 
-            technical troubleshooting, and time management skills.
-        </p>
-        <p>
-            In parallel with my customer service expertise, I hold an Associate’s degree in Software Development. I am eager to apply 
-            my technical foundation to build robust, user-centric applications and continue growing in the technology field.
-        </p>
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-details">
+                <p><strong>Location:</strong> Silverdale, WA</p>
+                <p><strong>Phone:</strong> (360) 265-7991</p>
+                <p><strong>Email:</strong> <a href="mailto:joshuacriswell1996@gmail.com">joshuacriswell1996@gmail.com</a></p>
+            </div>
+            <p class="about-text">
+                I’m a dedicated remote customer service professional with a proven track record in resolving client inquiries, optimizing satisfaction, 
+                and driving retention. My strong communication, technical troubleshooting, and time management skills have allowed me to excel in 
+                both customer-facing roles and remote work environments.
+            </p>
+            <p class="about-text">
+                With an Associate’s degree in Software Development, I’m now focusing on leveraging my technical training 
+                to build robust, user-friendly applications. I’m excited about contributing to projects that blend customer 
+                satisfaction with technological innovation.
+            </p>
+        </div>
     </section>
 
-    <section id="experience" class="experience">
-        <h2>Experience & Skills</h2>
-        
-        <div class="job">
-            <h3>Allstate Insurance | Remote Sales Agent</h3>
-            <p><em>07/2024 - Present | Remote</em></p>
-            <ul>
-                <li>Provided personalized insurance rate quotes and recommendations via inbound calls, ensuring high customer satisfaction.</li>
-                <li>Resolved technical issues using ticketing software to maintain a seamless customer experience.</li>
-                <li>Utilized Microsoft Teams for collaboration, excelling in a remote, independent work environment.</li>
-                <li>Recognized as a top-performing new hire for exceptional customer service and adaptability.</li>
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2>Experience &amp; Skills</h2>
+
+            <div class="experience-card">
+                <h3>Allstate Insurance | Remote Sales Agent</h3>
+                <p class="date-location">07/2024 - Present | Remote</p>
+                <ul>
+                    <li>Provided personalized insurance quotes, ensuring high customer satisfaction.</li>
+                    <li>Resolved technical issues using ticketing software for seamless experiences.</li>
+                    <li>Collaborated via Microsoft Teams, excelling in remote environments.</li>
+                    <li>Recognized as a top-performing new hire for exceptional service and adaptability.</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <h3>T-Mobile | Mobile Expert</h3>
+                <p class="date-location">12/2021 - 07/2024 | Silverdale, WA</p>
+                <ul>
+                    <li>Delivered exceptional customer service, boosting satisfaction rates.</li>
+                    <li>Managed inventory using data tools, optimizing stock levels and reducing losses.</li>
+                    <li>Trained new staff, enhancing team productivity and cohesion.</li>
+                    <li>Negotiated effectively with major clients to secure favorable outcomes.</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <h3>Additional Experience (2015 - 2021)</h3>
+                <ul>
+                    <li><strong>Assistant Manager/Delivery Driver (2018 – 2021, Kingston, WA):</strong> Ensured operational efficiency, improved customer satisfaction, and supported team collaboration.</li>
+                    <li><strong>Assistant Manager (Subway, 2015 – 2018, Poulsbo, WA):</strong> Enhanced customer satisfaction and employee performance through training and process improvements.</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <h3>Concentrix | Customer Service Representative</h3>
+                <p class="date-location">03/2014 - 02/2015 | Bremerton, WA</p>
+                <ul>
+                    <li>Provided solutions to technical and billing inquiries, improving retention.</li>
+                    <li>Resolved customer complaints effectively, ensuring client satisfaction.</li>
+                </ul>
+            </div>
+
+            <h3>Skills</h3>
+            <ul class="skills-list">
+                <li>Technical Troubleshooting &amp; Problem-Solving</li>
+                <li>Microsoft Teams, Zoom, Remote Collaboration</li>
+                <li>Customer Service &amp; Satisfaction Optimization</li>
+                <li>Effective Remote Communication</li>
+                <li>Time Management &amp; Self-Motivation</li>
+            </ul>
+
+            <h3>Education</h3>
+            <ul class="edu-list">
+                <li><strong>Olympic College | Bremerton, WA</strong> - Associates in Software Development (03/2021)</li>
+                <li><strong>Klahowya Secondary School | Silverdale, WA</strong> - General Studies (12/2014)</li>
             </ul>
         </div>
-
-        <div class="job">
-            <h3>T-Mobile | Mobile Expert</h3>
-            <p><em>12/2021 - 07/2024 | Silverdale, WA</em></p>
-            <ul>
-                <li>Delivered exceptional customer service, efficiently resolving issues and increasing satisfaction rates.</li>
-                <li>Managed inventory using data assimilation tools, ensuring optimal stock levels and minimizing losses.</li>
-                <li>Trained new staff, fostering skill development and enhancing team productivity.</li>
-                <li>Negotiated effectively with major clients to secure favorable outcomes.</li>
-            </ul>
-        </div>
-
-        <div class="job">
-            <h3>Additional Work Experience (01/2015 - 12/2021)</h3>
-            <ul>
-                <li><strong>Assistant Manager/Delivery Driver (2018 – 2021, Kingston, WA):</strong> Ensured operational efficiency, strengthened customer satisfaction, and fostered team collaboration.</li>
-                <li><strong>Assistant Manager (Subway, 2015 – 2018, Poulsbo, WA):</strong> Improved customer satisfaction and employee performance through process enhancements and courteous interactions.</li>
-            </ul>
-        </div>
-
-        <div class="job">
-            <h3>Concentrix | Customer Service Representative</h3>
-            <p><em>03/2014 - 02/2015 | Bremerton, WA</em></p>
-            <ul>
-                <li>Provided solutions to technical and billing inquiries, improving customer retention and satisfaction.</li>
-                <li>Resolved complaints efficiently, ensuring client needs were met effectively.</li>
-            </ul>
-        </div>
-
-        <h3>Skills</h3>
-        <ul>
-            <li>Technical Troubleshooting and Problem-Solving</li>
-            <li>Microsoft Teams, Zoom, and Remote Collaboration Tools</li>
-            <li>Customer Service and Satisfaction Optimization</li>
-            <li>Effective Communication in Remote Environments</li>
-            <li>Time Management and Self-Motivation in Remote Settings</li>
-        </ul>
-
-        <h3>Education</h3>
-        <ul>
-            <li><strong>Olympic College | Bremerton, WA</strong> - Associates in Software Development (03/2021)</li>
-            <li><strong>Klahowya Secondary School | Silverdale, WA</strong> - General Studies (12/2014)</li>
-        </ul>
     </section>
 
-    <section id="projects" class="projects">
-        <h2>Projects</h2>
-        
-        <!-- Example Project 1 -->
-        <div class="project">
-            <h3>To-Do List App</h3>
-            <p>A simple front-end application allowing users to add, complete, and remove tasks. Built with HTML, CSS, and JavaScript.</p>
-            <div class="links">
-                <a href="https://github.com/yourusername/todo-list-app" target="_blank">View Code</a> | 
-                <a href="https://yourusername.github.io/todo-list-app" target="_blank">Live Demo</a>
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <p class="section-intro">
+                Below are a few projects demonstrating my foundational software development skills, including front-end, back-end, 
+                and API integration.
+            </p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>To-Do List App</h3>
+                    <p>A front-end web application built with HTML, CSS, and JavaScript that lets users add, complete, and remove tasks.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/jcriz99/todo-list-app" target="_blank">View Code</a>
+                        <a href="https://jcriz99.github.io/todo-list-app/" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Weather Fetch App</h3>
+                    <p>A small web application using Fetch API to retrieve and display current weather conditions from a public API.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/jcriz99/weather-app" target="_blank">View Code</a>
+                        <a href="https://jcriz99.github.io/weather-app/" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Note-Taking CLI (Node.js)</h3>
+                    <p>A Node.js command-line tool for managing notes stored in a JSON file, showcasing basic backend logic and file handling.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/jcriz99/node-notes" target="_blank">View Code</a>
+                        <!-- No live demo for CLI-based app -->
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-        <!-- Example Project 2 -->
-        <div class="project">
-            <h3>Weather Fetch App</h3>
-            <p>A small web app fetching current weather conditions from a public API, demonstrating async JS and API integration.</p>
-            <div class="links">
-                <a href="https://github.com/yourusername/weather-app" target="_blank">View Code</a> | 
-                <a href="https://yourusername.github.io/weather-app" target="_blank">Live Demo</a>
-            </div>
-        </div>
-
-        <!-- Example Project 3 -->
-        <div class="project">
-            <h3>Note-Taking CLI (Node.js)</h3>
-            <p>A Node.js command-line tool for adding, listing, and removing notes stored in a JSON file.</p>
-            <div class="links">
-                <a href="https://github.com/yourusername/node-notes" target="_blank">View Code</a>
-                <!-- No live demo since this is CLI-based. Could host instructions or screenshots in the README. -->
-            </div>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you’d like to discuss opportunities, collaborations, or have any questions, feel free to reach out.</p>
+            <p><strong>Email:</strong> <a href="mailto:joshuacriswell1996@gmail.com">joshuacriswell1996@gmail.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com" target="_blank">Connect with me</a></p>
         </div>
     </section>
 
-    <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <p>
-            I’m open to discussing potential opportunities and collaborations. Feel free to reach out via email at 
-            <a href="mailto:joshuacriswell1996@gmail.com">joshuacriswell1996@gmail.com</a> or connect with me on 
-            <a href="https://www.linkedin.com/in/joshua-criswell-458456a5/" target="_blank">LinkedIn</a> (update this link to your profile).
-        </p>
-    </section>
-
-    <footer>
-        <p>© 2024 Joshua Criswell</p>
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2024 Joshua Criswell</p>
+        </div>
     </footer>
 </body>
 </html>
