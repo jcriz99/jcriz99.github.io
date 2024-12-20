@@ -33,7 +33,7 @@ Welcome to my personal portfolio website. This site showcases my professional ex
 ## How to View
 
 - **Live Site:**  
-  The portfolio is hosted using GitHub Pages. Visit: [https://yourusername.github.io/](https://jcriz99.github.io/)  
+  The portfolio is hosted using GitHub Pages. Visit: [https://jcriz99.github.io/](https://jcriz99.github.io/)  
 
 ## How to Run Locally
 
