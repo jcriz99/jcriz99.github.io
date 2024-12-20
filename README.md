@@ -39,4 +39,4 @@ Welcome to my personal portfolio website. This site showcases my professional ex
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yourusername.github.io.git
+   git clone https://github.com/jcriz99/jcriz99.github.io.git
