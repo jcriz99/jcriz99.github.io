@@ -20,15 +20,15 @@ Welcome to my personal portfolio website. This site showcases my professional ex
 
 1. **To-Do List App:**  
    A simple front-end app built with HTML, CSS, and JavaScript. Manage tasks with add, complete, and delete functionality.  
-   - [View Code](https://github.com/yourusername/todo-list-app) | [Live Demo](https://yourusername.github.io/todo-list-app)
+   - [View Code](https://github.com/jcriz99/todo-list-app) | [Live Demo](https://jcriz99.github.io/todo-list-app)
 
 2. **Weather Fetch App:**  
    A web application that fetches current weather data from a public API using JavaScript’s `fetch()` method.  
-   - [View Code](https://github.com/yourusername/weather-app) | [Live Demo](https://yourusername.github.io/weather-app)
+   - [View Code](https://github.com/jcriz99/weather-app) | [Live Demo](https://jcriz99.github.io/weather-app)
 
 3. **Note-Taking CLI (Node.js):**  
    A Node.js command-line tool for managing notes stored in a JSON file. Demonstrates basic backend skills and file handling.  
-   - [View Code](https://github.com/yourusername/node-notes)
+   - [View Code](https://github.com/jcriz99/node-notes)
 
 ## How to View
 
